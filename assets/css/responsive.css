@@ -640,6 +640,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .card {
+    width: 95%;
+  }
   h1{
     margin-bottom: -1.5rem !important;
   }
