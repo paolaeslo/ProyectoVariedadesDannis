@@ -258,15 +258,14 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .card {
+    width: 95%;
+  }
   .hero .col-md-6:first-child {
     margin-left: 102px;
     margin-top: -209px;
   }
-  .cards img {
-    width: 15%;
-    margin-left: 204px;
-    margin-bottom: 41px;
-  }
+
   .contenedor-carrusel {
     width: 80%;
   }
@@ -548,6 +547,9 @@
 }
 
 @media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
 
   .back-to-top {
     bottom: 15px;
