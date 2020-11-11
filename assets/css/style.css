@@ -229,6 +229,7 @@ textarea {
 }
 
 .hero .container {
+
   position: relative;
   height: 100%;
   margin-top: 19px;
@@ -552,7 +553,8 @@ textarea {
 /* FOOTER
 ================================================== */
 .site-footer {
-  position: fixed;
+  clear:boot;
+  position: relative;
   bottom: 0;
   padding: 30px 0;
   width: 100%;
@@ -650,6 +652,8 @@ a.icon-up-bg:hover {
 --------------------------------*/
 
 #contact {
+  position: relative;
+  clear:both;
   padding: 30px 0;
   background: rgba(255, 0, 255, 0.07);
 }
@@ -781,6 +785,8 @@ a.icon-up-bg:hover {
 }
 
 .card {
+  float:left;
+  position: relative;
   width: 21%;
   text-align: center;
   box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
