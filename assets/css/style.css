@@ -553,7 +553,7 @@ textarea {
 /* FOOTER
 ================================================== */
 .site-footer {
-  clear:boot;
+  clear:both;
   position: relative;
   bottom: 0;
   padding: 30px 0;
